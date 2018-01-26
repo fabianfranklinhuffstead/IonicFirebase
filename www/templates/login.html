@@ -1,0 +1,50 @@
+<ion-view hide-back-button="true" view-title="Login" ng-controller="RegisterCtrl">
+
+  <!-- error messages which is not working yet -->
+  <!-- <h4 class="text-center energized  padding" ng-show="message"> {{ message }} </h4> -->
+
+  <ion-content class="padding">
+
+    <!-- Login logo image -->
+    <img src="img/chive-app2.svg" class="img-rounded col" alt="logo" width="304" height="236">
+
+    <!-- Main login section -->
+    <div class="list">
+
+    <!-- USER EMAIL HERE -->
+      <label class="item item-input">
+        <span class="input-label">E-mail</span>
+        <input type="email" placeholder="E-mail" ng-model="user.email">
+      </label>
+
+
+     <!-- USER PASSWORD HERE  -->
+      <label class="item item-input">
+        <span class="input-label">Password</span>
+        <input type="password" placeholder="Password" ng-model="user.password">
+      </label>
+    </div>
+
+
+    <!---->
+    <!--&lt;!&ndash; USER CONFIRM PASSWORD HERE (working on implmenting this in the future) &ndash;&gt;-->
+      <!--<label class="item item-input">-->
+        <!--<span class="input-label">Password</span>-->
+        <!--<input type="password" placeholder="Password" ng-model="user.password">-->
+      <!--</label>-->
+    <!--</div>-->
+
+    <!-- If user exist we log them in with this button -->
+    <button class="button button-block button-stable" ng-click="login()">Login</button>
+
+    <!-- If not we pass them onto the registration view -->
+    <button class="button button-block button-stable" ng-click="registerPage()">Register</button>
+
+  </ion-content>
+
+  <!-- Copy Right footer -->
+  <ion-footer-bar class="bar-balanced">
+    <ion-title><h5 class="title">Copyright &copy; ChiveApp</h5></ion-title>
+  </ion-footer-bar>
+
+</ion-view>

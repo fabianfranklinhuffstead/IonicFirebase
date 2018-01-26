@@ -1,0 +1,21 @@
+<ion-view hide-back-button="true" view-title="Login" name="login-view" ng-controller="RegisterCtrl">
+  <ion-content class="padding">
+    <img src="img/chive-app2.svg" class="img-rounded col" alt="logo" width="304" height="236">
+
+    <div class="list">
+      <label class="item item-input">
+        <span class="input-label">E-mail</span>
+        <input type="text" placeholder="E-mail" ng-model="data.username">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Password</span>
+        <input type="password" placeholder="Password" ng-model="data.password">
+      </label>
+    </div>
+    <button class="button button-block button-stable" ng-click="login()">Login</button>
+    <button class="button button-block button-stable" ng-click="register()">Register</button>
+  </ion-content>
+  <ion-footer-bar class="bar-balanced">
+    <ion-title><h5 class="title">Copyright &copy; ChiveApp</h5></ion-title>
+  </ion-footer-bar>
+</ion-view>

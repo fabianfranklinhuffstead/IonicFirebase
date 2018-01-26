@@ -1,0 +1,42 @@
+<ion-view view-title="Create Account" name="register-view">
+  <ion-content class="padding">
+    <h4 class="text-center balanced">Sign up</h4>
+
+    <form name="myform" novalidate>
+
+    <div class="list">
+      <label class="item item-input item-floating-label">
+        <span class="input-label">First Name</span>
+        <input type="text" placeholder="First name" ng-model="data.firstName" ng-required="required">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Last Name</span>
+        <input type="text" placeholder="Last name" ng-model="data.LastName" ng-required="required">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">E-mail</span>
+        <input type="text" placeholder="E-mail" ng-model="data.username" ng-required="required">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Password</span>
+        <input type="password" placeholder="Password" ng-model="data.password" ng-required="required">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Password again</span>
+        <input type="password" placeholder="Type password again" ng-model="data.passwordConfirm" ng-required="required">
+      </label>
+    </div>
+    <button type="submit" class="button button-block button-stable" ng-click="CreateAccount()" ng-disabled="myform.$invalid">Create Account</button>
+
+    </form>
+
+    <a href="#/login"><button class="button button-block button-stable">Already have an account?</button></a>
+
+  </ion-content>
+
+
+  <ion-footer-bar class="bar-balanced">
+    <ion-title><h5 class="title">Copyright &copy; ChiveApp</h5></ion-title>
+  </ion-footer-bar>
+
+</ion-view>

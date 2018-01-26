@@ -1,0 +1,83 @@
+<!-- Working on the content and responsiveness of this page -->
+<ion-view>
+
+  <!-- NAVIGATIONAL BAR FOR TUTORIAL -->
+  <ion-nav-bar class="bar-light">
+
+    <!-- Working on this section a next button which leads to the next page
+    <!-- <ion-nav-buttons side="primary">
+      <button class="button button-balanced" ng-click="next()">Next</button>
+    </ion-nav-buttons> -->
+    <ion-nav-buttons side="secondary">
+      <button class="button button-balanced" ng-click="startHome()">Skip Tutorial</button>
+    </ion-nav-buttons>
+
+  </ion-nav-bar>
+
+<!-- Makes sure the page is not scrolling although each slide directive has scrolling set to true -->
+  <ion-content scroll="false">
+
+    <!-- SLIDER CONTAINER -->
+    <ion-slides options="options" slider="data.slider">
+
+      <!-- THE FIRST TUTORIAL PAGE -->
+      <ion-slide-page>
+        <img src="img/chive-app2.svg" class="img-rounded col" alt="logo" width="304" height="236">
+      </ion-slide-page>
+
+
+      <!-- THE SECOND TUTORIAL PAGE -->
+      <ion-slide-page class="text-center">
+        <ion-content>
+        <div class="padding">
+          <h1>How to use Chive <i class="ion-help "></i></h1>
+          <div class="padding">
+            <ol>
+              <li>Sign in</li>
+              <li>Search your location</li>
+              <li>View photos</li>
+            </ol>
+          </div>
+          <img src="img/instructions2.jpg" class="img-rounded col" alt="instructions" width="304" height="236">
+        </div>
+        </ion-content>
+      </ion-slide-page>
+
+      <!-- THE THIRD TUTORIAL PAGE -->
+      <ion-slide-page class="text-center">
+
+        <ion-content>
+          <div class="padding">
+            <h1 >Remember <i class="ion-alert-circled energized"></i></h1>
+              <div class="padding">
+                <ol>
+                  <li>Share us with your friends</li>
+                  <li>Share through Twitter</li>
+                  <li>Send them a message</li>
+                </ol>
+              </div>
+              <img src="img/instructions.jpg" class="img-rounded col" alt="instructions" width="304" height="236">
+          </div>
+        </ion-content>
+
+      </ion-slide-page>
+
+      <!-- THE FOURTH TUTORIAL PAGE -->
+      <ion-slide-page class="text-center">
+            <ion-content>
+              <div class="padding">
+                <h1>Get started here now</h1>
+                <button class="button button-positive" ng-click="startHome()">
+                  Ready to begin
+                </button>
+                <img src="img/instructions3.jpg" class="img-rounded col" alt="instructions" width="304" height="236">
+
+              </div>
+            </ion-content>
+      </ion-slide-page>
+
+    </ion-slides> <!-- END SLIDER CONTAINER -->
+
+  </ion-content>
+
+</ion-view>

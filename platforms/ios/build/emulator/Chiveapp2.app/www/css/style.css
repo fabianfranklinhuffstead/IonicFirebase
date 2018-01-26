@@ -1,0 +1,24 @@
+/* Global effects */
+
+ion-header-bar > div{
+  text-align: center !important;
+} /* centers text on all heading pages */
+
+
+a{
+  text-decoration: none;
+}/* For linked buttons */
+
+
+/* Splash intro */
+
+.splash{
+  background: url(../img/chive-app2.svg) no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+
+

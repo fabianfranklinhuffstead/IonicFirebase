@@ -1,0 +1,49 @@
+/* Global effects */
+
+ion-header-bar > div{
+  text-align: center !important;
+} /* centers text on all heading pages cross platform */
+
+
+/* For linked buttons*/
+a{
+  text-decoration: none;
+}
+
+/* Splash intro */
+
+.splash{
+  background: url(../img/chive-app2.svg) no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+
+/* Was going to do something Something similiar to how we see on the home view  Tutorial */
+
+.TutorialLogo{
+  background: url(../img/instructions.jpg) no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+
+/* Main Dashboard */
+
+.dashimages{
+  transform: translate3d(0px, 240px, 0px) scale(1);
+  -ms-transform: translate3d(0px, 240px, 0px) scale(1);
+  -webkit-transform: translate3d(0px, 240px, 0px) scale(1);
+} /* Stops the gallery from overlaying the search bar */
+
+.searchsection{
+  background-color: #ffffff;
+}
+
+.image-gallery{
+  padding-left: 20%;
+}

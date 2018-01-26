@@ -1,0 +1,22 @@
+<ion-view view-title="Account">
+  <ion-content>
+    <h4 class="text-center balanced">Account</h4>
+    <ion-list>
+    <ion-toggle  ng-model="settings.enableFriends">
+        Enable Friends <!-- Change This -->
+    </ion-toggle>
+
+      <ion-item ng-bind-html="emailLink">
+      </ion-item>
+
+      <ion-item ng-bind-html="twitterLink">
+      </ion-item>
+
+      <ion-item href="/#home" ng-click="displayNav('off')">
+       Logout
+      </ion-item>
+
+    </ion-list>
+
+  </ion-content>
+</ion-view>

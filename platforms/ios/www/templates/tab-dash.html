@@ -1,0 +1,40 @@
+<ion-view view-title="Chive" >
+  <ion-content class="padding">
+
+
+    <h1>{{ message }}</h1>
+    <h2> {{ testmessage }} </h2>
+
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" placeholder="Search" ng-change="search()">
+      </label>
+    </div>
+
+
+
+    <div id="photos" class="clearfix" ng-controller="FlickrCtrl">
+      <div class="photo" ng-repeat="photo in photos.items">
+        <img ng-src="{{ photo.media.m }}">
+        This is some words
+      </div>
+    </div>
+
+
+    This is some words
+    <img ng-src="{{ photo.media.m }}">
+
+
+
+    <ion-list ng-repeat="item in items">
+      <ion-item >
+        Hello, {{item}}!
+      </ion-item>
+    </ion-list>
+
+
+  </ion-content>
+
+
+</ion-view>

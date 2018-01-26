@@ -1,0 +1,77 @@
+<ion-view view-title="Create Account">
+
+  <!-- error messages which is not working yet -->
+  <!-- <h4 class="text-center energized  padding" ng-show="message"> {{ message }} </h4> -->
+
+  <ion-content class="padding">
+
+    <h4 class="text-center balanced">Sign up</h4>
+
+    <!-- START ACCOUNT FORM -->
+    <form name="myform" novalidate>
+
+
+      <!-- FIRST NAME -->
+    <div class="list"> <!-- start list -->
+      <label class="item item-input item-floating-label">
+          <span class="input-label">First Name</span>
+          <!-- First name input -->
+          <input type="text" placeholder="First name" ng-model="user.firstname" ng-required="required">
+      </label>
+      <!-- END FIRST NAME -->
+
+      <!-- SURNAME -->
+      <label class="item item-input item-floating-label">
+          <span class="input-label">Last Name</span>
+          <!-- Surname input -->
+          <input type="text" placeholder="Last name" ng-model="user.lastname" ng-required="required">
+      </label>
+      <!-- END SURNAME -->
+
+      <!-- EMAIL/USERNAME  -->
+      <label class="item item-input item-floating-label">
+          <span class="input-label">E-mail</span>
+        <!-- Email/Username input -->
+          <input type="text" placeholder="E-mail" ng-model="user.email" ng-required="required">
+      </label>
+      <!-- END EMAIL/USERNAME -->
+
+      <!-- PASSWORD -->
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Password</span>
+        <!-- Password input -->
+          <input type="password" placeholder="Password" ng-model="user.password" ng-required="required">
+        </label>
+      <!-- END PASSWORD  -->
+
+
+
+      <!--&lt;!&ndash; PASSWORD CONFIRMATION &ndash;&gt;-->
+        <!--<label class="item item-input item-floating-label">-->
+          <!--<span class="input-label">Password again</span>-->
+          <!--&lt;!&ndash; Password Confirmation input &ndash;&gt;-->
+        <!--<input type="password" placeholder="Type password again" ng-model="user.passwordConfirm" ng-required="required">-->
+        <!--</label>-->
+      <!--&lt;!&ndash; END PASSWORD CONFIRMATION &ndash;&gt;-->
+
+
+    </div> <!-- end list -->
+
+    <!-- Button to submit form -->
+    <button type="submit" class="button button-block button-stable" ng-click="register()">Create Account</button>
+
+    </form>
+    <!-- END ACCOUNT FORM -->
+
+   <!-- REDIRECTS USER TO LOGIN IF THEY HAVE ACCOUNT -->
+    <a ui-sref="login"><button class="button button-block button-stable">Already have an account?</button></a>
+
+  </ion-content>
+
+
+  <!-- Copy Right footer -->
+  <ion-footer-bar class="bar-balanced">
+    <ion-title><h5 class="title">Copyright &copy; ChiveApp</h5></ion-title>
+  </ion-footer-bar>
+
+</ion-view>

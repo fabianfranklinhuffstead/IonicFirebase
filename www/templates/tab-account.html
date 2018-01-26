@@ -1,0 +1,23 @@
+<ion-view view-title="Account" ng-controller="RegisterCtrl">
+  <ion-content>
+    <h4 class="text-center balanced">Account</h4>
+    <ion-list>
+      <!-- Changing this in the future -->
+    <ion-toggle  ng-model="settings.enableFriends">
+        Enable Friends
+    </ion-toggle>
+
+      <ion-item ng-bind-html="emailLink">
+      </ion-item>
+
+      <ion-item ng-bind-html="twitterLink">
+      </ion-item>
+
+      <ion-item ui-sref="home" ng-click="logout()">
+       Logout
+      </ion-item>
+
+    </ion-list>
+
+  </ion-content>
+</ion-view>
