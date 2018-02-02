@@ -8,3 +8,5 @@
   <li>Autheticate information</li>
   <li>Connect user to application</li>
 </ul>
+
+<p>Please contact for fixes, changes further instructions</p>
