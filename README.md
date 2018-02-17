@@ -7,6 +7,7 @@
   <li>Register for new user</li>
   <li>Autheticate information</li>
   <li>Connect user to application</li>
+  <li>-- Unfinished project however useful for Ionic and Firebase configs</li>
 </ul>
 
 <p>Please contact for fixes, changes further instructions</p>
