@@ -11,3 +11,10 @@
 </ul>
 
 <p>Please contact for fixes, changes further instructions</p>
+
+
+<h2>Requirements: </h2>
+<ul>
+  <li>Access to google firebase account</li>
+  <li>Google api key</li>
+</ul>
