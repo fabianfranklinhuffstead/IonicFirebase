@@ -15,6 +15,6 @@
 
 <h2>Requirements: </h2>
 <ul>
-  <li>Access to google firebase account</li>
+  <li>Access to Google firebase account</li>
   <li>Google api key</li>
 </ul>
