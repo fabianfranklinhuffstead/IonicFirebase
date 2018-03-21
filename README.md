@@ -16,5 +16,6 @@
 <h2>Requirements: </h2>
 <ul>
   <li>Access to Google firebase account</li>
+  <li>Can be implement with firebase cloud hosting</li>
   <li>Google api key</li>
 </ul>
