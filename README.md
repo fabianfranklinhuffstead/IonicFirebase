@@ -10,7 +10,7 @@
   <li>-- Unfinished project however useful for Ionic and Firebase configs</li>
 </ul>
 
-<p>Please contact for fixes, changes further instructions</p>
+<p>Please contact for fixes, changes further instructions.</p>
 
 
 <h2>Requirements: </h2>
