@@ -1,6 +1,8 @@
 # IonicFirebase
 <p>A fullstack Google Firebase and Ionic solution which allows users to sign in and register using NoSQL cloud DB</p>
 
+<img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/image-readme.jpg">
+
 <h2>The task: </h2>
 <ul>
   <li>Sign in if account already exist</li>
