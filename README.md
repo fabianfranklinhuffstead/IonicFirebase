@@ -21,3 +21,8 @@
   <li>Can be implement with firebase cloud hosting</li>
   <li>Google api key</li>
 </ul>
+
+
+<img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions.jpg" height="30%" weight="30%">
+<img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions2.jpg" height="30%" weight="30%">
+<img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions3.jpg" height="30%" weight="30%">
