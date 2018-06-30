@@ -12,9 +12,6 @@
   <li>-- Unfinished project however useful for Ionic and Firebase configs</li>
 </ul>
 
-<p>Please contact for fixes, changes further instructions.</p>
-
-
 <h2>Requirements: </h2>
 <ul>
   <li>Access to Google firebase account</li>
@@ -22,7 +19,13 @@
   <li>Google api key</li>
 </ul>
 
-
-<img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions.jpg" height="30%" width="30%">
+<h2>Screenshots | Instructions </h2>
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions2.jpg" height="30%" width="30%">
+
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions3.jpg" height="30%" width="30%">
+
+
+
+<p>Please contact for fixes, changes further instructions.</p>
+
+
