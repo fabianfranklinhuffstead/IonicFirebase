@@ -28,8 +28,6 @@
 <p>The register in page to the app</p>
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions3.jpg" height="30%" width="30%">
 
-
-
 <p>Please contact for fixes, changes further instructions.</p>
 
 
