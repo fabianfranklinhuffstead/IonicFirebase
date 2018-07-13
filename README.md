@@ -21,13 +21,12 @@
 
 <h2>Screenshots | Instructions </h2>
 <h3>Login page</h3>
-<p>The sign in page to the app</p>
+<p>The sign in page to the application</p>
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions2.jpg" height="30%" width="30%">
   
 <h3>Register page</h3>
-<p>The register in page to the app</p>
+<p>The registration page for new users</p>
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions3.jpg" height="30%" width="30%">
-
 
 
 <p>Please contact for fixes, changes further instructions.</p>
