@@ -23,11 +23,11 @@
 This includes splash screens which transitions into the dashboard of the application. Dashboard is a basic static image gallery.
 
 <h3>Login page</h3>
-<p>The sign in page to the application</p>
+<p>The sign in page to the application. Once user has complete registration process they can sign into the application.</p>
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions2.jpg" height="30%" width="30%">
   
 <h3>Register page</h3>
-<p>The registration page for new users</p>
+<p>The registration page for new users, user requires to complete fields of the registration form. This information is stored via Firebase</p>
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions3.jpg" height="30%" width="30%">
 
 
