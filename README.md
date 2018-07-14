@@ -20,6 +20,8 @@
 </ul>
 
 <h2>Screenshots | Instructions </h2>
+This includes splash screens which transitions into the dashboard of the application. Dashboard is a basic static image gallery.
+
 <h3>Login page</h3>
 <p>The sign in page to the application</p>
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions2.jpg" height="30%" width="30%">
