@@ -20,7 +20,7 @@
 </ul>
 
 <h2>Screenshots | Instructions </h2>
-This includes splash screens which transitions into the dashboard of the application. Dashboard is a basic static image gallery.
+This includes splash screens which transitions into the dashboard of the application. Dashboard is a basic static image gallery. This application is explicitly built mobile first the pages below show this.
 
 <h3>Login page</h3>
 <p>The sign in page to the application. Once user has complete registration process they can sign into the application.</p>
@@ -29,7 +29,6 @@ This includes splash screens which transitions into the dashboard of the applica
 <h3>Register page</h3>
 <p>The registration page for new users, user requires to complete fields of the registration form. This information is stored via Firebase</p>
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions3.jpg" height="30%" width="30%">
-
 
 <p>Please contact for fixes, changes further instructions.</p>
 
