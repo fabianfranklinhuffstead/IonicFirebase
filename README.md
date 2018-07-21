@@ -20,7 +20,7 @@
 </ul>
 
 <h2>Screenshots | Instructions </h2>
-This includes splash screens which transitions into the dashboard of the application. Dashboard is a basic static image gallery. This application is explicitly built mobile first the pages below show this.
+This includes splash screens which transitions into the dashboard of the application. Dashboard is a basic static image gallery. This application is explicitly built mobile first the pages below show this. Similiar to <a href="https://github.com/fabianfranklinhuffstead/angularRoutingAppV1.6">this</a> application it directs the user to the main area of the application with further functionality.
 
 <h3>Login page</h3>
 <p>The sign in page to the application. Once user has complete registration process they can sign into the application.</p>
@@ -30,7 +30,7 @@ This includes splash screens which transitions into the dashboard of the applica
 <p>The registration page for new users, user requires to complete fields of the registration form. This information is stored via Firebase</p>
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions3.jpg" height="30%" width="30%">
 
-Similiar to <a href="https://github.com/fabianfranklinhuffstead/angularRoutingAppV1.6">this</a> application it directs the user to the dashboard area of the application.
+
 
 <p>Please contact for fixes, changes further instructions.</p>
 
