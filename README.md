@@ -30,6 +30,8 @@ This includes splash screens which transitions into the dashboard of the applica
 <p>The registration page for new users, user requires to complete fields of the registration form. This information is stored via Firebase</p>
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions3.jpg" height="30%" width="30%">
 
+Similiar to <a href="https://github.com/fabianfranklinhuffstead/angularRoutingAppV1.6">this</a> application it directs the user to the dashboard area of the application.
+
 <p>Please contact for fixes, changes further instructions.</p>
 
 
