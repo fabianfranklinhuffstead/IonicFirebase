@@ -2,7 +2,7 @@
 <p>A fullstack Google Firebase and Ionic solution which allows users to sign in and register using NoSQL cloud DB</p>
 
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/image-readme.jpg" height="50%" width="50%">
-<h3>An ionic and firebase solution for a sign in and registeration system</h3>
+<h3>An ionic and firebase solution for a sign in and registeration system (initial iteration)</h3>
 
 <h2>The task: </h2>
 <ul>
