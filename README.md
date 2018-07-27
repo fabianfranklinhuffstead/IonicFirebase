@@ -3,6 +3,7 @@
 
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/image-readme.jpg" height="50%" width="50%">
 <h3>An ionic and firebase solution for a sign in and registeration system (initial iteration)</h3>
+<img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/chivetut2.png" height="50%" width="50%">
 
 <h2>The task: </h2>
 <ul>
