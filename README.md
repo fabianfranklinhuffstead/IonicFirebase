@@ -20,6 +20,7 @@
   <li>Access to Google firebase account</li>
   <li>Can be implement with firebase cloud hosting</li>
   <li>Google api key</li>
+  <li><i>Read through specific version documentation for support on installation and set-up</i><li>
 </ul>
 
 <h2>Screenshots | Instructions </h2>
