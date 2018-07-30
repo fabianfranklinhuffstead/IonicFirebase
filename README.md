@@ -8,7 +8,7 @@
 
 <h2>The task: </h2>
 <ul>
-  <li>Sign in if account already exist</li>
+  <li>Sign in if an account already exist</li>
   <li>Register for new user</li>
   <li>Autheticate information</li>
   <li>Connect user to application</li>
