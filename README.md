@@ -3,7 +3,7 @@
 
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/image-readme.jpg" height="50%" width="50%">
 <h3>An ionic and firebase solution for a sign in and registeration system (initial iteration)</h3>
-<p>This is the initial iteration of the application. It can be a brilliant solution for starting of with some of the functionaly with using Firebase, Angular and Ionic.</p>
+<p>This is the initial iteration of the application. It can be a brilliant solution for starting of with some of the functionaly with using <a href="https://firebase.google.com">Firebase</a>, <a href="https://angular.io">Angular</a> and <a href="https://ionicframework.com">Ionic.</a></p>
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/chivetut.png" height="50%" width="50%">
 
 <h2>The task: </h2>
