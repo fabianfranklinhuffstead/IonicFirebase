@@ -34,4 +34,4 @@ This includes splash screens which transitions into the dashboard of the applica
 <p>The registration page for new users, user requires to complete fields of the registration form. This information is stored via <a href="https://firebase.google.com/">Firebase.</a></p>
 <img src="https://github.com/fabianfranklinhuffstead/IonicFirebase/blob/master/www/img/instructions3.jpg" height="30%" width="30%">
 
-<p>Please contact for fixes, changes further instructions.</p>
+<p>Please contact for fixes, changes or further instructions.</p>
